@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip">
+
+    <ImageView
+            android:paddingTop="2dip"
+            android:layout_alignParentLeft="true"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:id="@+id/maplistviewitemImage"/>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:textSize="17dip"
+            android:layout_width="fill_parent"
+            android:id="@+id/maplistviewitemshopname"
+            android:layout_toRightOf="@id/maplistviewitemImage"
+            android:textColor="#000000"/>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/maplistviewitemImage"
+            android:id="@+id/maplistviewitemActi"
+            android:textColor="#6C6C6C"/>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/maplistviewitemActi"
+            android:id="@+id/maplistviewitemaddr"
+            android:textColor="#6C6C6C"
+            android:singleLine="true"/>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/maplistviewitemaddr"
+            android:id="@+id/maplistviewitemtelphone"
+            android:textColor="#6C6C6C"
+            android:singleLine="true"/>
+</RelativeLayout>

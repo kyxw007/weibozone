@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="#f0f0f0"
+             android:focusable="false"
+             android:foregroundGravity="top">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/shape"
+            android:layout_gravity="top"
+            android:alpha="10"
+            android:animateLayoutChanges="false"
+            android:addStatesFromChildren="false"
+            android:gravity="top"
+            android:requiresFadingEdge="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:showDividers="middle"
+            android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="false"
+            android:divider="@android:drawable/divider_horizontal_dark">
+
+        <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="fill_parent">
+
+            <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:id="@+id/UIDpicture"
+                    android:background="@drawable/uidpicture"
+                    android:layout_gravity="top"
+                    android:requiresFadingEdge="vertical"
+                    android:baselineAlignBottom="false"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:requiresFadingEdge="vertical"
+                android:background="#ffffff"
+                android:showDividers="middle"
+                android:layout_margin="1dp">
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/username"
+                    android:layout_margin="5dp"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/status"
+                    android:autoLink="email|phone|web"
+                    android:requiresFadingEdge="vertical"
+                    android:layout_margin="5dp"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/statimg"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:requiresFadingEdge="vertical"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fafafa"
+                    android:layout_margin="0dp">
+
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/zanButton"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/zan"
+                        android:requiresFadingEdge="vertical"
+                        />
+
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/commentButton"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/comment"
+                        android:requiresFadingEdge="vertical"
+                        />
+
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="18dp"
+                        android:id="@+id/repostButton"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/repost"
+                        android:requiresFadingEdge="vertical"
+                        />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

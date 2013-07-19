@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.listviewtest">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="16"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="com.example.listviewtest.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    <activity android:label="com.example.listviewtest.listview01" android:name="listview01.listview01">
+
+    </activity>
+        <activity android:label="listview02.listview02" android:name="listview02.listview02">
+
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>
