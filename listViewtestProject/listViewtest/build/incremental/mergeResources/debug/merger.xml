@@ -184,6 +184,16 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="DBtest"
+                path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/src/main/res/layout/DBtest.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dbtest"
+                path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/src/main/res/layout/dbtest.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/build/res/rs/debug" />
     </dataSet>

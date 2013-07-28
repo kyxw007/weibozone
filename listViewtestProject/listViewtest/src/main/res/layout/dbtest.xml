@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="write"
+            android:id="@+id/write"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="read"
+            android:id="@+id/read"
+            android:layout_alignBottom="@+id/write"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="49dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="000"
+            android:id="@+id/showTV"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="input something"
+            android:id="@+id/status"
+            android:layout_above="@+id/write"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="90dp"/>
+</RelativeLayout>

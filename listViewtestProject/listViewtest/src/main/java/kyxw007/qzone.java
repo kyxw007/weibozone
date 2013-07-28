@@ -267,6 +267,7 @@ public class qzone {
                 String commentURL = null;
                 commentURL = s.select("[href*=/infocenter/]").attr("href")
                         .toString();
+                curr.commentURL=commentURL;
                 // System.out.print("\n@@评论："+commentURL);
 
                 // get repost url
@@ -296,6 +297,7 @@ public class qzone {
             public String status;
             public String STRcreattime;
             public String ZanUrl;
+            public String commentURL;
             public String authorUrl;
             public String picUrl;
             public String repostUrl;

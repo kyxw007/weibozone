@@ -16,8 +16,10 @@ import android.os.Message;
 import android.util.Log;
 
 public class AsyncImageLoader {
+    /*图片异步加载器对像*/
 
     private HashMap<String, SoftReference<Drawable>> imageCache;
+    /*哈希表 Ｓtring 映射 Ｄrawable*/
 
     public AsyncImageLoader() {
         imageCache = new HashMap<String, SoftReference<Drawable>>();

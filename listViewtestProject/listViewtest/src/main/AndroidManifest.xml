@@ -33,6 +33,7 @@
                   android:label="listview02.listview02">
 
         </activity>
+        <activity android:name="test.DBtest"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 

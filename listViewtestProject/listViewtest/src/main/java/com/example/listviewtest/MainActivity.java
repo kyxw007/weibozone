@@ -45,6 +45,16 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button DBtestbu=(Button) findViewById(R.id.button3);
+        DBtestbu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent DBIntent = new Intent();
+                DBIntent.setClass(MainActivity.this,test.DBtest.class);
+                MainActivity.this.startActivity(DBIntent);
+            }
+        });
+
 
     }
 
