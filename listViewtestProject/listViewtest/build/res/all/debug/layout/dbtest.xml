@@ -19,9 +19,8 @@
             android:layout_height="wrap_content"
             android:text="read"
             android:id="@+id/read"
-            android:layout_alignBottom="@+id/write"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="49dp"/>
+            android:layout_alignTop="@+id/reset"
+            android:layout_toRightOf="@+id/reset"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -42,4 +41,12 @@
             android:layout_above="@+id/write"
             android:layout_alignParentLeft="true"
             android:layout_marginBottom="90dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:id="@+id/reset"
+            android:layout_alignTop="@+id/write"
+            android:layout_toRightOf="@+id/write"/>
 </RelativeLayout>

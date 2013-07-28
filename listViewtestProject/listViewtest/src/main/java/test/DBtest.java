@@ -18,21 +18,25 @@ public class DBtest extends Activity {
 
     public TextView showTv;
     public EditText statuEt;
+    public DBzone DB;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dbtest);
         Button writeBu = (Button) findViewById(R.id.write);
         Button readBu = (Button) findViewById(R.id.read);
+        Button resetBu = (Button) findViewById(R.id.reset);
         showTv = (TextView) findViewById(R.id.showTV);
         statuEt = (EditText) findViewById(R.id.status);
-
+        DB = new DBzone(DBtest.this);
 
 //        DB.open();
 
 
         Listener ourListener = new Listener();
         writeBu.setOnClickListener(ourListener);
+        readBu.setOnClickListener(ourListener);
+        resetBu.setOnClickListener(ourListener);
 
 
     }
@@ -44,14 +48,22 @@ public class DBtest extends Activity {
             switch (view.getId()) {
                 case R.id.write:
                     String status = statuEt.getText().toString();
-                    DBzone DB = new DBzone(DBtest.this);
                     DB.open();
-                    DB.entry(status);
+                    DB.insert(status);
+                    DB.close();
                     break;
                 case R.id.read:
-//                    status = DB.getstasus();
-//                    showTv.setText(status);
+                    DB.open();
+                    status = DB.getstasus();
+                    showTv.setText(status);
+                    DB.close();
                     break;
+                case R.id.reset:
+                    DB.open();
+                    DB.DELET();
+                    DB.close();
+                    break;
+
 
 
             }
