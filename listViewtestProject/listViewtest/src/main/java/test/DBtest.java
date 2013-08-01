@@ -28,6 +28,7 @@ public class DBtest extends Activity {
         Button resetBu = (Button) findViewById(R.id.reset);
         showTv = (TextView) findViewById(R.id.showTV);
         statuEt = (EditText) findViewById(R.id.status);
+        Button islogBu = (Button) findViewById(R.id.islogon);
         DB = new DBzone(DBtest.this);
 
 //        DB.open();
@@ -37,6 +38,7 @@ public class DBtest extends Activity {
         writeBu.setOnClickListener(ourListener);
         readBu.setOnClickListener(ourListener);
         resetBu.setOnClickListener(ourListener);
+        islogBu.setOnClickListener(ourListener);
 
 
     }
@@ -61,6 +63,16 @@ public class DBtest extends Activity {
                 case R.id.reset:
                     DB.open();
                     DB.DELET();
+                    DB.close();
+                    break;
+                case R.id.islogon:
+                    DB.open();
+                    boolean flag = DB.isLogon("515779871");
+                    String re="no";
+                    if(flag){
+                        re = "yes";
+                    }
+                    Toast.makeText(getApplicationContext(),re,Toast.LENGTH_LONG).show();
                     DB.close();
                     break;
 

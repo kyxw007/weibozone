@@ -28,14 +28,6 @@ public class qzone {
     public qzone(String UID, String psw) {
         this.UID = UID;
         this.psw = psw;
-        String s = "<html><body>wowowowo</body></html>";
-        try {
-            Document doc = Jsoup.parse(s);
-            Log.d(TAG, doc.toString());
-
-        } catch (Throwable e) {
-            Log.d(TAG,"Throw@@@@");
-        }
 
     }
 

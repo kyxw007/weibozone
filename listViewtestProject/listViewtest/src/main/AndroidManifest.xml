@@ -34,6 +34,7 @@
 
         </activity>
         <activity android:name="test.DBtest"/>
+        <activity android:name="test.zonetest"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 

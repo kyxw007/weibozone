@@ -194,6 +194,11 @@
                 path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/src/main/res/layout/dbtest.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="notyetlogon"
+                path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/src/main/res/layout/notyetlogon.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/home/kyxw007/AndroidStudioProjects/listViewtestProject/listViewtest/build/res/rs/debug" />
     </dataSet>
