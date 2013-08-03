@@ -19,6 +19,8 @@
         </activity>
         <activity android:name="test.DBtest"/>
         <activity android:name="test.zonetest"/>
+        <activity android:name="listview03.listview03"/>
+        <activity android:name="listview03.listview0301"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 

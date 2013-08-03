@@ -66,32 +66,35 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="QzoneV2" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e52cf95-6042-40f9-99e4-8debec6bb8a8" name="Default" comment="" />
     <ignored path="listViewtest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375342565237" ignored="false" />
-    <file path="/listview01.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375349732303" ignored="false" />
+    <file path="/listview01.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375493338672" ignored="false" />
     <file path="/shape.xml" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373646036294" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373647483737" ignored="false" />
-    <file path="/MainActivity.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375343329299" ignored="false" />
+    <file path="/MainActivity.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375496663579" ignored="false" />
     <file path="/listview02.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373647302380" ignored="false" />
     <file path="/MapListImageAndTextListAdapter.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373647380871" ignored="false" />
     <file path="/qzone.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1374985358437" ignored="false" />
-    <file path="$PROJECT_DIR$/listViewtest/build/source/r/debug/com/example/listviewtest/R.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375343857428" ignored="false" />
     <file path="/MapListImageAndText.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373775376809" ignored="false" />
     <file path="/jsoupt.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373866010587" ignored="false" />
     <file path="/internetst.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373866797046" ignored="false" />
     <file path="/qzoneV2.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1373867528458" ignored="false" />
-    <file path="/QzoneV2.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375372225876" ignored="false" />
+    <file path="/QzoneV2.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375377765331" ignored="false" />
     <file path="/AsyncImageLoader.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1374979602569" ignored="false" />
     <file path="/DBAadpter.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1374986794043" ignored="false" />
     <file path="/DBtest.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375343839600" ignored="false" />
     <file path="/DBzone.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375349438548" ignored="false" />
     <file path="/zonetest.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375347233977" ignored="false" />
     <file path="$PROJECT_DIR$/listViewtest/build/res/all/debug/layout/activity_main.xml" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375343171979" ignored="false" />
+    <file path="/listview03.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375497705590" ignored="false" />
+    <file path="/strings.xml" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375496447662" ignored="false" />
+    <file path="/listview0301.java" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375497572481" ignored="false" />
+    <file path="/listview03.xml" changelist="3e52cf95-6042-40f9-99e4-8debec6bb8a8" time="1375497737492" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,58 +160,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="listview02.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview02/listview02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#699#720#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBzone.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DBzone.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/test/DBzone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="27" selection-start="2787" selection-end="2787" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3519#3534#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listview01.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview01/listview01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="20" selection-start="1435" selection-end="2047" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2398#2414#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qzone.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/qzone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="17" selection-start="4865" selection-end="4865" vertical-scroll-proportion="0.0">
+            <state line="15" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.5529623">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QzoneV2.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/QzoneV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="37" selection-start="6988" selection-end="6988" vertical-scroll-proportion="0.38554215">
-              <folding>
-                <element signature="method#login#0;class#QzoneV2#0" expanded="false" />
-                <element signature="e#1763#6814#0" expanded="true" />
-                <element signature="e#6803#6804#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,19 +172,72 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/com/example/listviewtest/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="37" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+            <state line="86" column="85" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listview0301.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview0301.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="38" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncImageLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview02/AsyncImageLoader.java">
+      <file leaf-file-name="HeaderView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/HeaderView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
+            <state line="44" column="66" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listview03.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="50" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1163#1336#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#984#1290#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listview03.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/listview03.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="-4.32">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="56" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListViewExt.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/ListViewExt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="58" selection-start="1393" selection-end="1398" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -244,22 +253,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/jsoupt.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/internetst.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/qzoneV2.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview02/AsyncImageLoader.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/DBtest.xml" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/DBAadpter.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/notyetlogon.xml" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/com/example/listviewtest/MainActivity.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/dbtest.xml" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/DBtest.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/zonetest.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview01/listview01.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/DBzone.java" />
-        <option value="$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/qzone.java" />
         <option value="$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/QzoneV2.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/test/DBzone.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/listview01.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview02/MapListImageAndTextListAdapter.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview01/listview01.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/build/res/all/debug/layout/loader_footer.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview03/FooterView.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview03/HeaderView.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview03/ListViewExt.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview0301.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/com/example/listviewtest/MainActivity.java" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/res/layout/listview03.xml" />
+        <option value="$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview03.java" />
       </list>
     </option>
   </component>
@@ -408,6 +417,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listViewtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listViewtestProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="listViewtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -468,7 +507,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="listview02" />
+              <option name="myItemId" value="listview03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,40 +534,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listview01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listViewtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listViewtestProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="listViewtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kyxw007" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,8 +569,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,16 +587,16 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/listViewtest/src/main/java/kyxw007" />
-      <recent name="$PROJECT_DIR$/listViewtest/libs" />
+      <recent name="$PROJECT_DIR$/listViewtest/src/main/java/listview03" />
       <recent name="$PROJECT_DIR$/listViewtest/src/main/res/drawable-xhdpi" />
-      <recent name="$PROJECT_DIR$/listViewtest/src/main/java/listview02" />
       <recent name="$PROJECT_DIR$/listViewtest/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/listViewtest/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/listViewtest/src/main/res/layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.listViewtest">
@@ -757,12 +762,17 @@
       <workItem from="1374992749843" duration="6711000" />
       <workItem from="1375162243941" duration="10000" />
       <workItem from="1375162268705" duration="1317000" />
-      <workItem from="1375341584650" duration="17493000" />
+      <workItem from="1375341584650" duration="22192000" />
+      <workItem from="1375377650996" duration="267000" />
+      <workItem from="1375413056190" duration="2952000" />
+      <workItem from="1375492012301" duration="24000" />
+      <workItem from="1375492210101" duration="5000" />
+      <workItem from="1375492223780" duration="6911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55221000" />
+    <option name="totallyTimeSpent" value="70079000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -786,30 +796,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15934066" sideWeight="0.71746385" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15934066" sideWeight="0.71746385" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15901814" sideWeight="0.6431718" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15901814" sideWeight="0.6431718" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28253615" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35651213" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24866596" sideWeight="0.28807947" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24866596" sideWeight="0.28807947" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40728477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35651213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1307364" sideWeight="0.5927152" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.6434879" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5927152" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14727855" sideWeight="0.5927152" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20064034" sideWeight="0.6434879" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -875,132 +885,132 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/listViewtest/build.gradle">
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/listview01.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="365" selection-end="365" vertical-scroll-proportion="0.61538464" />
+        <state line="0" column="31" selection-start="31" selection-end="73" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview02/MapListImageAndTextListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/listViewtest/build/res/all/debug/layout/loader_footer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" />
+        <state line="5" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.15437393">
+          <folding>
+            <element signature="e#599#625#0" expanded="false" />
+            <element signature="e#1015#1035#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/build/res/all/debug/layout/dbtest.xml">
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/notyetlogon.xml">
-      <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/FooterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="73" selection-start="1442" selection-end="1442" vertical-scroll-proportion="-1.2061856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="55" selection-end="55" vertical-scroll-proportion="0.06185567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/build/res/all/debug/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="133" selection-end="133" vertical-scroll-proportion="0.06185567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/HeaderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="66" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="968" selection-end="968" vertical-scroll-proportion="0.8061041">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.8061041">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview0301.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listViewtest/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="48" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.6916933">
+        <state line="37" column="56" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/listview03.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="271" selection-end="271" vertical-scroll-proportion="-4.32">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/test/zonetest.java">
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/ListViewExt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/res/layout/dbtest.xml">
-      <provider editor-type-id="text-editor">
-        <state line="33" column="51" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/test/DBtest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="986" selection-end="986" vertical-scroll-proportion="-0.68976897">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview02/AsyncImageLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1163#1336#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/test/DBzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="27" selection-start="2787" selection-end="2787" vertical-scroll-proportion="0.0">
+        <state line="45" column="58" selection-start="1393" selection-end="1398" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3519#3534#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview02/listview02.java">
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview03/listview03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="0.0">
+        <state line="42" column="50" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#699#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/listview01/listview01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="20" selection-start="1435" selection-end="2047" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2398#2414#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#984#1290#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/com/example/listviewtest/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/qzone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="17" selection-start="4865" selection-end="4865" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/kyxw007/QzoneV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="37" selection-start="6988" selection-end="6988" vertical-scroll-proportion="0.38554215">
+        <state line="86" column="85" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#login#0;class#QzoneV2#0" expanded="false" />
-            <element signature="e#1763#6814#0" expanded="true" />
-            <element signature="e#6803#6804#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listViewtest/src/main/java/test/DBzone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="324" selection-end="324" vertical-scroll-proportion="-2.5529623">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,20 +1,15 @@
 package com.example.listviewtest;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.List;
-
 import kyxw007.QzoneV2;
-import kyxw007.qzone;
 import listview01.listview01;
-import test.internetst;
-import test.jsoupt;
 
 public class MainActivity extends Activity {
     public String TAG = "MAIN";
@@ -24,7 +19,18 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(TAG, "start QzoneV2!");
-        QzoneV2 qzone =new QzoneV2("515779871","b2840255",getApplicationContext());
+        final QzoneV2 qzone =new QzoneV2("515779871","b2840255",getApplicationContext());
+/*
+        new Thread(){
+            @Override
+            public void run() {
+                super.run();
+                qzone.login();
+                qzone.getCurrent(20);
+            }
+        }.start();
+*/
+
         listenner clicklisten=new listenner();
         Button listview01bu = (Button) findViewById(R.id.listview01);
         listview01bu.setOnClickListener(clicklisten);
@@ -37,6 +43,9 @@ public class MainActivity extends Activity {
 
         Button choseContent = (Button) findViewById(R.id.chosecontent);
         choseContent.setOnClickListener(clicklisten);
+
+        Button listView03Bu = (Button) findViewById(R.id.listview03);
+        listView03Bu.setOnClickListener(clicklisten);
 
 
     }
@@ -73,8 +82,11 @@ public class MainActivity extends Activity {
                     chosecontent.setClass(MainActivity.this,test.zonetest.class);
                     MainActivity.this.startActivity(chosecontent);
                     break;
-
-
+                case R.id.listview03:
+                    Intent listview03Intent = new Intent();
+                    listview03Intent.setClass(MainActivity.this,listview03.listview03.class);
+                    MainActivity.this.startActivity(listview03Intent);
+                    break;
             }
         }
     }

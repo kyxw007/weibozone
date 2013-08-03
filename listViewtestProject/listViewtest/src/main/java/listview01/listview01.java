@@ -4,12 +4,16 @@ package listview01;
  * Created by kyxw007 on 13-7-13.
  */
 import android.content.ContentValues;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Message;
 import android.view.Menu;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -33,6 +37,7 @@ public class listview01 extends Activity {
     ListView listview;
     DBzone DB;
     Handler handler;
+    listview01 class_this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +49,12 @@ public class listview01 extends Activity {
         listview.setDivider(null);
         SimpleAdapter adpter;
         adpter = new SimpleAdapter(this,   getData(),R.layout.unit01, new String[]{"uidpic", "status", "statusPic", "userName"}, new int[]{R.id.UIDpicture, R.id.status, R.id.statimg, R.id.username});
-
+        class_this = this;
         listview.setAdapter(adpter);
 
-
-
+        listener listen = new listener();
+        Button reflashBu = (Button) findViewById(R.id.reflash);
+        reflashBu.setOnClickListener(listen);
     }
     private void initData(){
         DB.open();
@@ -148,5 +154,51 @@ public class listview01 extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
+    private class Myadapter extends SimpleAdapter{
 
+        int count;
+        private List<Map<String, Object>>  mItemList;
+
+        public Myadapter(Context context, List<Map<String, Object>>  data, int resource, String[] from, int[] to) {
+            super(context, data, resource, from, to);
+            mItemList=data;
+            if(data == null){
+                count = 0;
+            }else{
+                count = data.size();
+            }
+
+        }
+        public int getCount() {
+            return mItemList.size();
+        }
+
+        public Object getItem(int pos) {
+            return pos;
+        }
+
+        public long getItemId(int pos) {
+            return pos;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            Map<String, Object> map = mItemList.get(position);
+
+            return super.getView(position, convertView, parent);
+        }
+    }
+
+    private class listener implements View.OnClickListener{
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()){
+                case R.id.reflash:
+                    SimpleAdapter adpter;
+                    adpter = new SimpleAdapter(class_this,getData(),R.layout.unit01, new String[]{"uidpic", "status", "statusPic", "userName"}, new int[]{R.id.UIDpicture, R.id.status, R.id.statimg, R.id.username});
+                    listview.setAdapter(adpter);
+
+            }
+        }
+    }
 }
