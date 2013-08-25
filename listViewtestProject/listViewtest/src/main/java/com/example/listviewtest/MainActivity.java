@@ -47,6 +47,9 @@ public class MainActivity extends Activity {
         Button listView03Bu = (Button) findViewById(R.id.listview03);
         listView03Bu.setOnClickListener(clicklisten);
 
+        Button listview04Bu = (Button) findViewById(R.id.listview04);
+        listview04Bu.setOnClickListener(clicklisten);
+
 
     }
 
@@ -87,6 +90,11 @@ public class MainActivity extends Activity {
                     listview03Intent.setClass(MainActivity.this,listview03.listview03.class);
                     MainActivity.this.startActivity(listview03Intent);
                     break;
+                case R.id.listview04:
+                    Intent listview04Intent = new Intent();
+                    listview04Intent.setClass(MainActivity.this,listview04.listview04.class);
+                    MainActivity.this.startActivity(listview04Intent);
+
             }
         }
     }

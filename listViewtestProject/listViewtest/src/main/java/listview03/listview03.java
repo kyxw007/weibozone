@@ -6,6 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 
 import com.example.listviewtest.R;
 
@@ -20,6 +21,12 @@ public class listview03 extends Activity {
 		"abcd13", "abcd14", "abcd15", "abcd16", "abcd17", "abcd18",
 		"abcd19", "abcd20", "abcd21", "abcd22", "abcd23", "abcd24"
 	};
+    private String[] mList01 = {
+            "abcd1", "abcd2", "abcd3", "abcd4", "abcd5", "abcd6",
+            "abcd7", "abcd8", "abcd9", "abcd10", "abcd11", "abcd12",
+            "abcd13", "abcd14", "abcd15", "abcd16", "abcd17", "abcd18",
+            "abcd19", "abcd20", "abcd21", "abcd22", "abcd23", "abcd24"
+    };
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -29,6 +36,7 @@ public class listview03 extends Activity {
 		mListView.setAdapter(new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, 
 				mList));
+        Button stopflash = (Button)findViewById(R.id.stopflash);
 		
 		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
 			@Override
@@ -45,4 +53,16 @@ public class listview03 extends Activity {
 		});
 	}
 
+    public  class listener implements View.OnClickListener{
+
+        @Override
+        public void onClick(View view) {
+            switch (view.getId()){
+                case R.id.stopflash:
+                    mListView.stopLoad();
+                    mListView.stopRefresh();
+                    break;
+            }
+        }
+    }
 }

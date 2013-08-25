@@ -37,6 +37,7 @@
         <activity android:name="test.zonetest"/>
         <activity android:name="listview03.listview03"/>
         <activity android:name="listview03.listview0301"/>
+        <activity android:name="listview04.listview04"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
